@@ -20,7 +20,7 @@
 			<div class="m-t-1" id="jqueryBacon"></div>
 
 			<h2>XMLHttpRequest Flavored Bacon</h2>
-			<button id="getJsBacon" class="btn btn-lg btn-info" onclick="jsBaconRequest();">Publish</button>
+			<button id="getJsBacon" class="btn btn-lg btn-danger" onclick="jsBaconRequest();">Gimme Moar Bacon</button>
 			<div class="m-t-1" id="jsBacon"></div>
 		</div>
 

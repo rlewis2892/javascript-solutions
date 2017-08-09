@@ -56,7 +56,7 @@ function jsBaconRequest() {
 
 					//put parsed JSON on screen
 					document.getElementById("jsBacon").innerHTML = bacon;
-					console.log("you have even more bacon!");
+					console.log("you have Vanilla.js flavored bacon!");
 				}
 			}
 		} catch(e) {
