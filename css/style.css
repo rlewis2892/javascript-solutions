@@ -21,10 +21,13 @@ section:last-child {
 	margin-top: 0;
 }
 
-/*********************************
-* REQUIRED TIER
-**********************************/
+.clear {
+	clear: both;
+}
 
+.m-t-1 {
+	margin-top: 1rem;
+}
 
 
 /*********************************
@@ -38,6 +41,29 @@ section:last-child {
 /*********************************
 * ADDITIONAL EXAMPLES
 **********************************/
+.box {
+	box-sizing: border-box;
+	height: 150px;
+	width: 150px;
+}
+
+#dropbox {
+	border: 8px solid;
+	border-top-color: #999;
+	border-left-color: #bbb;
+	border-right-color: #111;
+	background-color: #eee;
+	-webkit-box-shadow:inset 3px 3px 10px 0 rgba(0,0,0,0.5);
+	box-shadow:inset 3px 3px 10px 0 rgba(0,0,0,0.5);
+	overflow: hidden;
+	padding: 1rem;
+}
+
+.perms-title {
+	margin-left: -1.5rem;
+	border-bottom: 1px solid;
+	padding-bottom: 1rem;
+}
 
 /*********************************
 * AJAX ASSIGNMENT

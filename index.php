@@ -25,8 +25,8 @@
 							to the warmest spot on the couch to claw at the fabric before taking a catnap but refuse to leave cardboard box. Touch water with paw then recoil in horror eat owner's food but lay on arms while you're using the keyboard for play time, yet
 							immediately regret falling into bathtub i am the best.</p>
 					</div>
-					<button class="btn btn-default" onclick="textColor();">Change Color</button>
-					<button class="btn btn-default" onclick="resetTextColor();">Reset Color</button>
+					<button class="btn btn-primary" onclick="textColor();">Change Color</button>
+					<button class="btn btn-primary" onclick="resetTextColor();">Reset Color</button>
 				</section>
 
 				<!-- changing font style on checkbox -->
@@ -72,7 +72,7 @@
 									<label for="txt-replace">Replace</label>
 									<input type="text" class="form-control" id="txt-replace" maxlength="25">
 								</div>
-								<button class="btn btn-default" onclick="findReplace();">Go!</button>
+								<button class="btn btn-primary" onclick="findReplace();">Go!</button>
 							</form>
 						</div>
 					</div>
