@@ -33,13 +33,13 @@
 				<section>
 					<div id="font-style">
 						<h2>Commander Riker</h2>
-						<p>Well, that's certainly good to know. Some days you get the bear, and some days the bear gets you. Maybe if we felt any human loss as keenly as we feel one of those close to us, human history would be far less bloody. A lot of things can change
+						<p class="lead">Well, that's certainly good to know. Some days you get the bear, and some days the bear gets you. Maybe if we felt any human loss as keenly as we feel one of those close to us, human history would be far less bloody. A lot of things can change
 							in twelve years, Admiral. My oath is between Captain Kargan and myself. Your only concern is with how you obey my orders. Or do you prefer the rank of prisoner to that of lieutenant? Yes, absolutely, I do indeed concur, wholeheartedly! Sorry,
 							Data. Damage report! Earl Grey tea, watercress sandwiches... and Bularian canapés? Are you up for promotion? Besides, you look good in a dress. This is not about revenge. This is about justice.</p>
 					</div>
 					<div class="checkbox">
 						<label>
-							<input id="change-font" type="checkbox" onchange="fontStyle();"> Check Me
+							<input id="change-font" type="checkbox" onchange="fontStyle();"> Make Fancy
 						</label>
 					</div>
 				</section>

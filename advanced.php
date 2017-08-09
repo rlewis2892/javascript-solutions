@@ -7,7 +7,7 @@
 		<!-- JavaScript - Required Tier-->
 		<script src="js/advanced.js"></script>
 
-		<title>JavaScript Assignment | Advanced Tier</title>
+		<title>JavaScript Assignment | Adv/AJAX Tier</title>
 	</head>
 	<body>
 
@@ -15,7 +15,13 @@
 		<?php require_once("lib/navbar.php"); ?>
 
 		<div class="container">
-			AJAX calls: jQuery and flat JS. coming soon.
+			<h2>jQuery Flavored Bacon</h2>
+			<button id="getJqueryBacon" class="btn btn-lg btn-danger">Gimme Bacon</button>
+			<div class="m-t-1" id="jqueryBacon"></div>
+
+			<h2>XMLHttpRequest Flavored Bacon</h2>
+			<button id="getJsBacon" class="btn btn-lg btn-info" onclick="jsBaconRequest();">Publish</button>
+			<div class="m-t-1" id="jsBacon"></div>
 		</div>
 
 	</body>
