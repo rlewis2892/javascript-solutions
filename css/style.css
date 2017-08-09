@@ -1,11 +1,31 @@
 /*********************************
 * GLOBAL STYLES
 **********************************/
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+section {
+	padding: 3rem 0;
+}
+
+section:last-child {
+	padding-bottom: 6rem;
+}
+
+.custom-panel {
+	border: 1px solid #bbb;
+	border-radius: 6px;
+	padding: 2rem;
+}
+
+.custom-panel h2 {
+	margin-top: 0;
+}
 
 /*********************************
 * REQUIRED TIER
 **********************************/
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
 
 /*********************************
 * OPTIONAL TIER
