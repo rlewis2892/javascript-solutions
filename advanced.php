@@ -14,5 +14,9 @@
 		<!-- LOAD NAVBAR FROM FILE -->
 		<?php require_once("lib/navbar.php"); ?>
 
+		<div class="container">
+			AJAX calls: jQuery and flat JS. coming soon.
+		</div>
+
 	</body>
 </html>

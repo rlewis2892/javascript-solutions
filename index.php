@@ -63,17 +63,16 @@
 
 					<div class="row">
 						<div class="col-sm-6">
-							<form>
-								<div class="form-group">
-									<label for="txt-find">Find</label>
-									<input type="text" class="form-control" id="txt-find" maxlength="25">
-								</div>
-								<div class="form-group">
-									<label for="txt-replace">Replace</label>
-									<input type="text" class="form-control" id="txt-replace" maxlength="25">
-								</div>
-								<button class="btn btn-primary" onclick="findReplace();">Go!</button>
-							</form>
+							<div class="form-group">
+								<label for="txt-find">Find</label>
+								<input type="text" class="form-control" id="txt-find" maxlength="25">
+							</div>
+							<div class="form-group">
+								<label for="txt-replace">Replace</label>
+								<input type="text" class="form-control" id="txt-replace" maxlength="25">
+							</div>
+							<button type="button" class="btn btn-primary" onclick="findReplace();">Go!</button>
+
 						</div>
 					</div>
 				</section>

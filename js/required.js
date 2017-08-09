@@ -56,6 +56,7 @@ function resetBgColor() {
  * Find and Replace
  **/
 function findReplace() {
+
 	//grab the original text
 	var txt = document.getElementById("find-replace").innerHTML;
 
