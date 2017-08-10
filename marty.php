@@ -52,14 +52,7 @@
 
 			<section>
 				<h1 class="pacifico--font">Celebrity Kitties</h1>
-				<table class="table table-striped table-bordered">
-					<tr>
-						<th>Name</th>
-						<th>Breed</th>
-						<th>Color</th>
-						<th>Followers</th>
-					</tr>
-				</table>
+				<ul id="kitty-list"></ul>
 			</section>
 		</div><!--/.container-->
 	</body>

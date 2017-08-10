@@ -4,8 +4,12 @@ $(document).ready(function() {
 		method: "GET",
 		url: "data/cats.json"
 	}).done(function(reply) {
-		//$("#jqueryBacon").html(reply);
-		console.log(reply);
+
+		var cats = reply["cat"];
+
+		$.each(cats, function(key, value) {
+			$("#kitty-list").append("<li class=\"h3\">" + value.name + ", " + value.followers + " followers</li>");
+		});
 	});
 
 });
