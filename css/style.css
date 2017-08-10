@@ -29,7 +29,6 @@ section:last-child {
 	margin-top: 1rem;
 }
 
-
 /*********************************
 * OPTIONAL TIER
 **********************************/
@@ -81,5 +80,21 @@ textarea {
 }
 
 /*********************************
-* AJAX ASSIGNMENT
+* MARTY'S SOLUTION
 **********************************/
+.pacifico--font {
+	font-family: "Pacifico", serif;
+}
+
+#result {
+	padding: 1.25rem 2rem 1rem 2rem;
+	background: lightgray;
+	font-family: monospace;
+	border: 5px solid #999;
+	color: #333;
+	border-top-color: #bbb;
+	border-bottom-color: #555;
+	border-right-color: #333;
+	box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,0.5);
+	min-height: 6.25rem;
+}
