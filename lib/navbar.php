@@ -11,6 +11,7 @@
 				<li><a href="optional.php">Optional</a></li>
 				<li><a href="advanced.php">Advanced/AJAX</a></li>
 				<li><a href="additional-examples.php">Extra</a></li>
+				<li><a href="marty.php">Calculator</a></li>
 			</ul>
 		</div><!-- /.container-fluid -->
 	</nav>
