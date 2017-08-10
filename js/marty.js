@@ -4,8 +4,8 @@ function getInput() {
 
 	//user input must be parsed as integers before pushed into array
 	numbers.push(
-		parseInt(document.getElementById("number1").value, 10),
-		parseInt(document.getElementById("number2").value, 10)
+		parseFloat(document.getElementById("number1").value, 10),
+		parseFloat(document.getElementById("number2").value, 10)
 	);
 
 	return numbers;
