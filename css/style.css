@@ -86,15 +86,20 @@ textarea {
 	font-family: "Pacifico", serif;
 }
 
+div#result:before {
+	content: "> ";
+}
+
 #result {
-	padding: 1.25rem 2rem 1rem 2rem;
-	background: lightgray;
-	font-family: monospace;
-	border: 5px solid #999;
-	color: #333;
+	box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,0.75);
+	background: darkgreen;
+	border: 5px solid;
+	border-bottom-color: #333;
+	border-left-color: #999;
+	border-right-color: #111;
 	border-top-color: #bbb;
-	border-bottom-color: #555;
-	border-right-color: #333;
-	box-shadow: inset 1px 1px 2px 0 rgba(0,0,0,0.5);
+	color: lawngreen;
+	font-family: monospace;
 	min-height: 6.25rem;
+	padding: 1.25rem 2rem 1rem 2rem;
 }
