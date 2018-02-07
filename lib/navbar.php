@@ -1,18 +1,30 @@
 <header>
-	<nav class="navbar navbar-inverse">
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<a class="navbar-brand" href="https://bootcamp-coders.cnm.edu/~rlewis37/javascript-solutions">JS Assignment</a>
-			</div>
+			<a class="navbar-brand" href="https://bootcamp-coders.cnm.edu/~rlewis37/javascript-solutions">JS Challenge</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="https://bootcamp-coders.cnm.edu/~rlewis37/javascript-solutions">Required</a></li>
-				<li><a href="optional.php">Optional</a></li>
-				<li><a href="advanced.php">Advanced/AJAX</a></li>
-				<li><a href="additional-examples.php">Extra</a></li>
-				<li><a href="calculator.php">Calculator</a></li>
-			</ul>
-		</div><!-- /.container-fluid -->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~rlewis37/javascript-solutions">Basic</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="optional.php">Optional</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="advanced.php">AJAX</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="additional-examples.php">Extra</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="calculator.php">Calculator/JSON</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</nav>
 </header>

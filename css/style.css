@@ -3,8 +3,12 @@
 **********************************/
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 
+main {
+	padding-top: 3rem;
+}
+
 section {
-	padding: 3rem 0;
+	padding: 2rem 0;
 }
 
 section:last-child {
@@ -84,7 +88,7 @@ textarea {
 }
 
 /*********************************
-* MARTY'S SOLUTION
+* CALCULATOR
 **********************************/
 .pacifico--font {
 	font-family: "Pacifico", serif;
@@ -97,7 +101,7 @@ div#result:before {
 div#result:after {
 	animation: blinker 1s cubic-bezier(0.6, -0.28, 0.74, 0.05) infinite;
 	content: "\2588";
-	opacity:0.3;
+	opacity: 0.3;
 }
 
 @keyframes blinker {
@@ -114,6 +118,5 @@ div#result:after {
 	border-top-color: #bbb;
 	color: lawngreen;
 	font-family: monospace;
-	min-height: 6.25rem;
 	padding: 1.25rem 2rem 1rem 2rem;
 }
