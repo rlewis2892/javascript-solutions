@@ -29,6 +29,10 @@ section:last-child {
 	margin-top: 1rem;
 }
 
+#find-replace {
+	word-wrap: break-word;
+}
+
 /*********************************
 * OPTIONAL TIER
 **********************************/

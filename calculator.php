@@ -5,10 +5,10 @@
 		<?php require_once("lib/head-utils.php");?>
 
 		<!-- JavaScript - Marty Level JS-->
-		<script src="js/marty.js"></script>
+		<script src="js/calc.js"></script>
 
 		<!-- JavaScript - Leonora's Challenge -->
-		<script src="js/leonora.js"></script>
+		<script src="js/kitties.js"></script>
 
 		<title>JavaScript Assignment | Unique Challenges</title>
 	</head>
@@ -51,7 +51,7 @@
 			</section>
 
 			<section>
-				<h1 class="pacifico--font">Celebrity Kitties</h1>
+				<h1 class="pacifico--font">JSON Data: Celebrity Kitties</h1>
 				<ul id="kitty-list"></ul>
 			</section>
 		</div><!--/.container-->
