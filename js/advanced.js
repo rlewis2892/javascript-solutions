@@ -64,3 +64,26 @@ function jsBaconRequest() {
 		}
 	}
 }
+
+/* JavaScript Fetch Request */
+function fetchBacon() {
+	fetch('https://baconipsum.com/api/?type=meat-and-filler')
+		.then(function(response) {
+
+			//catch any requests that aren't 200 OK
+			if(response.status !== 200) {
+				alert('Sorry. Something happened. :-( Status Code: ' . response.status);
+				return;
+			}
+
+			//grab the response data and output to screen
+			response.json().then(function(data) {
+				document.getElementById("fetchBacon").innerHTML = data;
+			})
+		})
+
+		//catch any fetch errors here
+		.catch(function(err) {
+			alert('Fetch Error :O ', err);
+		})
+}
