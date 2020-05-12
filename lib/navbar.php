@@ -23,6 +23,9 @@
 					<li class="nav-item">
 						<a class="nav-link" href="tier-5.php">Extra</a>
 					</li>
+					<li class="nav-item">
+						<a href="https://github.com/rlewis2892/javascript-solutions" class="nav-link" target="_blank">GitHub</a>
+					</li>
 				</ul>
 			</div>
 		</div>

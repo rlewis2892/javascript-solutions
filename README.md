@@ -1,2 +1,4 @@
 # javascript-solutions
-Demo of JavaScript/jQuery assignment solutions
+Demo of Literary Mutilator JavaScript assignment solutions.
+
+See: 
