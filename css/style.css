@@ -33,17 +33,16 @@ section:last-child {
 	margin-top: 1rem;
 }
 
-#find-replace {
-	word-wrap: break-word;
+.pacifico--font {
+	font-family: "Pacifico", serif;
 }
 
 /*********************************
-* OPTIONAL TIER
+* Tier II
 **********************************/
-
-/*********************************
-* ADVANCED TIER
-**********************************/
+#find-replace {
+	word-wrap: break-word;
+}
 
 /*********************************
 * ADDITIONAL EXAMPLES
@@ -90,10 +89,6 @@ textarea {
 /*********************************
 * CALCULATOR
 **********************************/
-.pacifico--font {
-	font-family: "Pacifico", serif;
-}
-
 div#result:before {
 	content: "> ";
 }
