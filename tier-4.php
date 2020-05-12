@@ -12,6 +12,10 @@
 
 		<main class="mb-5">
 			<div class="container">
+
+				<h1 class="pacifico--font">Tier IV</h1>
+				<hr class="mt-5 bg-secondary">
+
 				<h2>jQuery Flavored Bacon</h2>
 				<button id="getJqueryBacon" class="btn btn-lg btn-danger">Gimme Bacon</button>
 				<div class="m-t-1" id="jqueryBacon"></div>

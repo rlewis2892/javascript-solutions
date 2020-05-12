@@ -3,13 +3,6 @@
 	<head>
 		<!-- LOAD ALL DEPENDENCY LINKS FROM FILE -->
 		<?php require_once("lib/head-utils.php");?>
-
-		<!-- JavaScript - Marty Level JS-->
-		<script src="js/calc.js"></script>
-
-		<!-- JavaScript - Leonora's Challenge -->
-		<script src="js/kitties.js"></script>
-
 		<title>JavaScript Assignment | Unique Challenges</title>
 	</head>
 	<body>
@@ -20,11 +13,15 @@
 		<main>
 			<div class="container">
 
+				<h1 class="pacifico--font">Tier V - Extras!</h1>
+				<hr class="mt-5 bg-secondary">
+
 				<!-- permutations finder -->
 				<section>
 					<h2>Permutations Finder :D</h2>
+					<p class="small">Warning: Expensive function! Your browser might crash. Input limited to 5 characters.</p>
 					<div class="form-group">
-						<input id="perms-input" class="form-control" type="text" maxlength="6" placeholder="Beer Me.">
+						<input id="perms-input" class="form-control" type="text" maxlength="5" placeholder="Beer Me.">
 					</div>
 					<button class="btn btn-primary" onclick="permutations();">YOLO!</button>
 					<div id="perms-output">
@@ -32,9 +29,9 @@
 					</div>
 				</section>
 
-				<section>
+				<section class="border border-secondary rounded p-4">
 					<!-- input -->
-					<h1 class="pacifico--font">My Little Calculator From Hell</h1>
+					<h2 class="pacifico--font h1">Calculator</h2>
 					<hr>
 					<div class="row">
 						<div class="col-sm-2">
@@ -50,7 +47,7 @@
 					<!-- buttons -->
 					<div class="row">
 						<div class="col">
-							<h2 class="mt-3">Choose an Operation</h2>
+							<h4 class="mt-3">Choose an Operation</h4>
 							<button id="add" class="btn btn-primary" onclick="add();"><i class="fa fa-plus fa-2x"></i></button>
 							<button id="subtract" class="btn btn-primary" onclick="subtract();"><i class="fa fa-minus fa-2x"></i></button>
 							<button id="multiply" class="btn btn-primary" onclick="multiply();"><i class="fa fa-times fa-2x"></i></button>
@@ -59,16 +56,22 @@
 					</div>
 
 					<!-- results -->
-					<h2 class="mt-3">Result</h2>
+					<h4 class="mt-3">Result</h4>
 					<div id="result" class="lead"></div>
 				</section>
 
 				<section>
-					<h1 class="pacifico--font">JSON Data: Celebrity Kitties</h1>
+					<h2 class="pacifico--font">JSON Data: Celebrity Kitties</h2>
 					<hr>
 					<ul id="kitty-list"></ul>
 				</section>
 			</div><!--/.container-->
 		</main>
+
+		<!-- JavaScript - Marty Level JS -->
+		<script src="js/tier-5.js"></script>
+
+		<!-- JavaScript - Leonora's Challenge -->
+		<script src="js/kitties.js"></script>
 	</body>
 </html>
