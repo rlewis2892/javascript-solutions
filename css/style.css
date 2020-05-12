@@ -44,6 +44,21 @@ section:last-child {
 	word-wrap: break-word;
 }
 
+.highlight {
+	background-color: yellow;
+}
+
+textarea {
+	height: 200px;
+	resize: none;
+	margin-top: 0;
+}
+
+#scroll-magic {
+	height: 200px;
+	overflow-y: scroll;
+}
+
 /*********************************
 * ADDITIONAL EXAMPLES
 **********************************/
@@ -69,21 +84,6 @@ section:last-child {
 	margin-left: -1.5rem;
 	border-bottom: 1px solid;
 	padding-bottom: 1rem;
-}
-
-.highlight {
-	background-color: yellow;
-}
-
-textarea {
-	height: 200px;
-	resize: none;
-	margin-top: 0;
-}
-
-#scroll-magic {
-	height: 100px;
-	overflow-y: scroll;
 }
 
 /*********************************
