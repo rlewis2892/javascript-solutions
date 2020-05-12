@@ -20,6 +20,18 @@
 		<main>
 			<div class="container">
 
+				<!-- permutations finder -->
+				<section>
+					<h2>Permutations Finder :D</h2>
+					<div class="form-group">
+						<input id="perms-input" class="form-control" type="text" maxlength="6" placeholder="Beer Me.">
+					</div>
+					<button class="btn btn-primary" onclick="permutations();">YOLO!</button>
+					<div id="perms-output">
+						<ol id="perms-list"></ol>
+					</div>
+				</section>
+
 				<section>
 					<!-- input -->
 					<h1 class="pacifico--font">My Little Calculator From Hell</h1>

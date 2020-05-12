@@ -3,11 +3,7 @@
 	<head>
 		<!-- LOAD ALL DEPENDENCY LINKS FROM FILE -->
 		<?php require_once("lib/head-utils.php");?>
-
-		<!-- JavaScript - Required Tier-->
-		<script src="js/additional.js"></script>
-
-		<title>JavaScript Assignment | Additional Examples</title>
+		<title>Literary Mutilator | Tier III</title>
 	</head>
 	<body>
 
@@ -16,6 +12,9 @@
 
 		<main>
 			<div class="container">
+
+				<h1 class="pacifico--font">Tier III</h1>
+				<hr class="mt-5 bg-secondary">
 
 				<!-- ROT13 -->
 				<section>
@@ -49,19 +48,10 @@
 					</div>
 				</section>
 
-				<!-- permutations finder -->
-				<section>
-					<h2>Permutations Finder :D</h2>
-					<div class="form-group">
-						<input id="perms-input" class="form-control" type="text" maxlength="6" placeholder="Beer Me.">
-					</div>
-					<button class="btn btn-primary" onclick="permutations();">YOLO!</button>
-					<div id="perms-output">
-						<ol id="perms-list"></ol>
-					</div>
-				</section>
 			</div><!--/.container -->
 		</main>
 
+		<!-- JavaScript - Tier III -->
+		<script src="js/tier-3.js"></script>
 	</body>
 </html>
