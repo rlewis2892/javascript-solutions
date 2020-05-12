@@ -1,5 +1,5 @@
 /**
- * JavaScript Assignment - Adv/AJAX Tier
+ * Literary Mutilator - Tier IV
  *
  * Use jQuery and flat JavaScript to make AJAX call
  * to web APIs.
