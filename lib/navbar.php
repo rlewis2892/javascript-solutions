@@ -9,19 +9,19 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~rlewis37/javascript-solutions">Basic</a>
+						<a class="nav-link" href="https://bootcamp-coders.cnm.edu/~rlewis37/javascript-solutions">Tier I</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="optional.php">Optional</a>
+						<a class="nav-link" href="tier-2.php">Tier II</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="advanced.php">AJAX</a>
+						<a class="nav-link" href="tier-3.php">Tier III</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="additional-examples.php">Extra</a>
+						<a class="nav-link" href="tier-4.php">Tier IV</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="calculator.php">Calculator/JSON</a>
+						<a class="nav-link" href="tier-5.php">Extra</a>
 					</li>
 				</ul>
 			</div>
