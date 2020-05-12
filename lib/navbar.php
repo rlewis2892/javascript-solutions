@@ -1,7 +1,7 @@
 <header>
 	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 		<div class="container">
-			<a class="navbar-brand" href="https://bootcamp-coders.cnm.edu/~rlewis37/javascript-solutions">JS Challenge</a>
+			<a class="navbar-brand pacifico--font" href="https://bootcamp-coders.cnm.edu/~rlewis37/javascript-solutions">Literary Mutilator</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>

@@ -15,6 +15,30 @@
 		<?php require_once("lib/navbar.php"); ?>
 
 		<div class="container">
+
+			<!-- find/replace -->
+			<section>
+				<div id="find-replace">
+					<h2>Find &amp; Replace =^. .^=</h2>
+					<p>Human give me attention meow hide from vacuum cleaner human give me attention meow. Bathe private parts with tongue then lick owner's face walk on car leaving trail of paw prints on hood and windshield. Stare at the wall, play with food and get confused by dust soft kitty warm kitty little ball of furr, and eat owner's food loves cheeseburgers mew chase the pig around the house. Attack dog, run away and pretend to be victim hunt by meowing loudly at 5am next to human slave food dispenser but jump launch to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed who's the baby, yet jump around on couch, meow constantly until given food. Soft kitty warm kitty little ball of furr missing until dinner time always hungry. Chase after silly colored fish toys around the house. Shake treat bag.</p>
+				</div><!-- /#find-replace -->
+
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="form-group">
+							<label for="txt-find">Find</label>
+							<input type="text" class="form-control" id="txt-find" maxlength="25">
+						</div>
+						<div class="form-group">
+							<label for="txt-replace">Replace</label>
+							<input type="text" class="form-control" id="txt-replace" maxlength="25">
+						</div>
+						<button type="button" class="btn btn-primary" onclick="findReplace();">Go!</button>
+
+					</div>
+				</div>
+			</section>
+
 			<!-- random shuffle -->
 			<section>
 				<div class="text-center">
